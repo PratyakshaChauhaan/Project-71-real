@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">St.Xavier's School</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#campus_life">Campus Life</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#new">What's New</a></li>
+                <li><a href="#alumni">Alumni</a></li>
+                <li><a href="#contactUs">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="announcement">
+        <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+            *** Feel free to ask queries on school@gmail.com ***
+        </marquee>
+    </div>
+    <iframe id="video" src="https://www.youtube.com/embed/9Frow8HMh74"></iframe>
+    <div class="container">
+        <div class="page-header" id="campus_life">
+            <h2 class="text-capitalize">Campus Life</h2>
+            <div class="row">
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="https://live.staticflickr.com/4809/39704276483_28584e2ef2_b.jpg">
+                    <h4 class="text-capitalize"><kbd>school church</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was established in 1978</h5>
+                    <p class="text-muted text-left">Write something about the mentioned place</p>
+                </div>
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="https://i.postimg.cc/KYzWbFpF/st2.jpg">
+                    <h4 class="text-capitalize"><kbd>school library</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was build in 1980</h5>
+                    <p class="text-muted text-left">Write something about the mentioned place</p>
+                </div>
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="https://i.postimg.cc/cLDDX2xz/st3.jpg">
+                    <h4 class="text-capitalize"><kbd>school auditorium</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was build in 1982</h5>
+                    <p class="text-muted text-left">Write something about the mentioned place</p>
+                </div>
+            </div>
+        </div>
+        <div class="page-header" id="achievements">
+            <h2 class="text-capitalize">school achievements</h2>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1">
+            Inter School Debate On Environment Pollution <i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="school_achievement1" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="img1.jpg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">Won first prize in inter school debate on environment pollution
+                </h5>
+                <p>Write about this achievement</p>
+            </div>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement2">
+            Inter School Football Competition<i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="school_achievement2" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="https://i.postimg.cc/sxcP1G1L/sm2.jpg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">Came second in inter school football competition
+                </h5>
+                <p>Write about this achievement</p>
+            </div>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement3">
+            Inter School Science Project Competition<i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="school_achievement3" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="https://i.postimg.cc/zXzS67cY/sm3.jpg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">Won second price in inter school Science Project competition
+                </h5>
+                <p>Write about this achievement</p>
+            </div>
+        </div>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="new">
+            <h2 class="text-capitalize ">What's New</h2>
+        </div>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                <h4>New School Canteen</h4>
+                <img src="https://live.staticflickr.com/2110/2196260331_c6592e8dab_c.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">The food options and responsibilities to consider, canteens must be better organised and more efficient than they have been in the past. Online menus with photographs of the meals prepared, and detailed descriptions of their ingredients help both students and parents make the right nutritional choices. Each student or staff member who accesses the canteen could be provided with a School Canteen Account on the school website that keeps track of their previous meal choices and any dietary requirements they may have. Ordering online by ticking a box and paying for meals online can eliminate all the fuss of money handling, making it safer and less complicated for staff and students alike. Here again, diversity is the key.</p>
+            </li>
+            <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                <h4>Implemented Online Attendance Management System</h4>
+                <img src="https://5.imimg.com/data5/ZA/SJ/QC/SELLER-7950336/rfid-smart-attendance-for-school-500x500.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">1. Accuracy
+                    Humans are prone to error, even if we provide them with supporting computational devices. Automated attendance management systems ensure accurate time records and minimize the inevitable and costly errors with manual data entry. This accurate data thereby helps to provide accurate performance and payroll data.
+                    <br>
+                    2. Economics
+                    Have you ever thought that attendance management systems could control costs? It saves money by putting an end to inaccurate time reporting, buddy punching, absenteeism, tardiness, time abuse, and overpayment. As a matter of fact, a study done by the Axsium Group found that large organizations save up to $1,600 per employee after implementing automated attendance management systems.
+                    <br>
+                    3. Productivity / Efficiency
+                    Monitoring and managing attendance manually can be a time-consuming, laborious, and expensive affair. It takes time to process paper sheets and time cards, create schedules, authorize leave and overtime, and create payroll manually. Free up precious administration time with an automated system that does it all for you, from keeping track of employee hours to automatically importing information into your payroll system. The time and effort saved combined with data accuracy helps in optimizing the use of resources which lead to increased productivity and improves profits. And many more like Visibility / Insights, Hassle Free Workflow Management, Flexibility, Integration / Configuration, Real-time tracking, Security, and Compliance
+                </p>
+            </li>
+        </ul>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h2 class="text-capitalize"> Our Alumni </h2>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminilist" data-taggle="modal" data-target="#school_alumn1">
+            <img src="https://www.sinceindependence.com/wp-content/uploads/2019/10/th-2-3.jpg" class="img-responsive">
+            <hr>
+            <p class="text-primary"> Aditya Thackeray </p>
+        </div>
+        <!--Modal-->
+        <div class="modal fade" id="school_alumni1">
+            <div class="modal-dialog">
+                <!--modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title"> Aditya Thackeray </h4>
+                    </div>
+
+                    <div class="modal-body">
+                        <img src="https://www.sinceindependence.com/wp-content/uploads/2019/10/th-2-3.jpg" hieght="300" width="300" class="img-responsive img_modal">
+                        <p class="p_modal">He is an Indian politician serving as cabianet Minister of Tourism and Environment Goverment of Maharashtra <br> <a href="htpps://en.wikipedia.org/wiki/Aaditya_Thackeray"><b>To know more </b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminilist" data-taggle="modal" data-target="#school_alumn1">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Vidya_Balan_promoting_Mission_Mangal.jpg/200px-Vidya_Balan_promoting_Mission_Mangal.jpg" hieght="300" width="300" class="img-responsive">
+            <hr>
+            <p class="text-primary"> Vidya Balan </p>
+        </div>
+
+        <!__Modal__>
+            <div class="modal fade" id="school_alumni2">
+                <div class="modal-dialog">
+                    <!--Modal content-->
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dissmiss="modal">&times;</button>
+                                <h4 class="modal-title"> Vidya Balan </h4>
+                            </div>
+                            <div class="modal-body">
+                                <img src="http://www.sinceindependence.com/wp-content/uploads/2019/10th-2-3.jpg" class="img-responsive img_modal">
+                                <p class="p_modal"> (born 1 January 1979) is an Indian actress. <br>
+                                    <a href="http://en.wikpedia.org/wiki/Vidya_Balan"><b> To Know More </b></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminilist" data-taggle="modal" data-target="#school_alumn3">
+                <img src="https://images.cnbctv18.com/wp-content/uploads/2018/07/2018-07-05T073637Z_1_LYNXMPEE640MC_RTROPTP_4_RELIANCE-AGM-768x520.jpg" class="img-responsive">
+                <hr>
+                <p class="text-primary"> Mukesh Ambani </p>
+            </div>
+            <!__Modal__>
+                <div class="modal fade" id="school_alumni3">
+                    <div class="modal-dialog">
+                        <!--Modal content-->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dissmiss="modal">&times;</button>
+                                    <h4 class="modal-title">Mukesh Ambani</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="" class="img-responsive img_modal">
+                                    <p class="p_modal">Mukesh Dhirubhai Ambani (born 19 April 1957) is an Indian billionaire businessman, and the chairman, managing director, and largest shareholder of Reliance Industries Ltd. (RIL),<br> <a href="https://en.wikipedia.org/wiki/Mukesh_Ambani"><b>To know more</b></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminilist" data-taggle="modal" data-target="#school_alumn4">
+                    <img src="https://jaipurliteraturefestival.org/uploads_jaipurlitfest/speakers/3136-rajdeep-sardesai.jpg" class="img-responsive">
+                    <hr>
+                    <p class="text-primary"> Rajdeep Sardesai </p>
+                </div>
+                <!__Modal__>
+                    <div class="modal fade" id="school_alumni4">
+                        <div class="modal-dialog">
+                            <!--Modal content-->
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dissmiss="modal">&times;</button>
+                                        <h4 class="modal-title">Rajdeep Sardesai</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="https://jaipurliteraturefestival.org/uploads_jaipurlitfest/speakers/3136-rajdeep-sardesai.jpg" class="img-responsive img_modal">
+                                        <p class="p_modal">Rajdeep Sardesai (born 24 May 1965) is an Indian news anchor, journalist and author. He was a consulting editor and an anchor of India Today Television. He was the Editor-in-Chief of Global Broadcast News, that included CNN-IBN, IBN7 and IBN-Lokmat, before resigning in July 2014.<br> <a href="https://en.wikipedia.org/wiki/Rajdeep_Sardesai"><b>To know more</b></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!__Modal__>
+                        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <h2 class="text-capitalize"> List of Books </h2>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#First_Space_Encyclopaedia">
+                            <img src="s1.jpg" class="img-responsive">
+                            <hr>
+                            <p class="text-primary"> First Space Encyclopaedia </p>
+                        </div>
+                        <div class="modal fade" id="First_Space_Encyclopaedia">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">First Space Encyclopaedia</h4>
+                                    </div>
+                                    <div class="modal-body"> <img src="s1.jpg" class="img-responsive img_modal">
+                                        <p class="p_modal">Zoom off into the galaxy and investigate all the planets, from Earth to Mars with First Space Encyclopaedia. Packed full of stunning photography, quizzes and amazing facts, children will become space experts in no time. Covering everything from observatories and rockets, to the solar system and the death of stars, children will discover all about space and space travel.<br> <a href="https://www.amazon.in/First-Space-Encyclopaedia-DK/dp/0241293421/ref=sr_1_6?crid=176WU3JFDK2JP&keywords=books+on+space+for+kids&qid=1575444723&sprefix=books+on%2Caps%2C285&sr=8-6"><b>BEST BUY LINK</b></a> </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#Man_on_the_Moon">
+                            <img src="s2.jpg" class="img-responsive">
+                            <hr>
+                            <p class="text-primary"> Man on the Moon </p>
+                        </div>
+                        <div class="modal fade" id="Man_on_the_Moon">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Man on the Moon</h4>
+                                    </div>
+                                    <div class="modal-body"> <img src="s2.jpg" class="img-responsive img_modal">
+                                        <p class="p_modal">It was 1969 and no one had ever set foot on the moon. Some said it couldn't be done. But astronauts Mike Collins, Buzz Aldrin, and Neil Armstrong were going to try . . . Here in picture book format is the amazing true story of the first moon landing, when a man set foot on an unexplored world and showed us that the boundaries of our world were limitless."[A] perfect introduction to space, the space program, and exploration. Thrilling!" (Kirkus Reviews)"The milestone event [is] a great idea for a picture book!" <br><a href="https://www.amazon.in/Moon-Picture-Puffins-Anastasia-Suen/dp/0140565981/ref=sr_1_2_sspa?crid=176WU3JFDK2JP&keywords=books+on+space+for+kids&qid=1575444723&sprefix=books+on%2Caps%2C285&sr=8-2-spons&psc=1&smid=A3H3WE9M6NY1KV&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzTVBPRUUyMlg5TU9XJmVuY3J5cHRlZElkPUEwMjUyOTM3MU9XVklaVFdUMk9GUSZlbmNyeXB0ZWRBZElkPUEwNDAwNTE1T1JZSVhWWDM3NTlMJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="><b>BEST BUY LINK</b></a> </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#Space_Encyclopaedia">
+                            <img src="s3.jpg" class="img-responsive">
+                            <hr>
+                            <p class="text-primary"> Space Encyclopaedia </p>
+                        </div>
+                        <div class="modal fade" id="Space_Encyclopaedia">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Space Encyclopaedia</h4>
+                                    </div>
+                                    <div class="modal-body"> <img src="s3.jpg" class="img-responsive img_modal">
+                                        <p class="p_modal">The universe is bigger than you can ever imagine and it is full of fascinating facts that will astound you! This Space. Encyclopaedia is your guide to the infinite wonders of outer space. Browse through the pages and know more about galaxies, planets, stars and much, much more!.<br> <a href="https://www.amazon.in/Space-Encyclopaedia-Books-Editorial-Team/dp/9384625957/ref=sr_1_7?crid=176WU3JFDK2JP&keywords=books+on+space+for+kids&qid=1575444723&sprefix=books+on%2Caps%2C285&sr=8-7"><b>BEST BUY LINK</b></a> </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#No_Place_Like_Space">
+                            <img src="s4.jpg" class="img-responsive">
+                            <hr>
+                            <p class="text-primary"> No Place Like Space </p>
+                        </div>
+                        <div class="modal fade" id="No_Place_Like_Space">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="model header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">No Place Like Space</h4>
+                                    </div>
+                                    <div class="modal-body"> <img src="s4.jpg" class="img-responsive img_modal">
+                                        <p class="p_modal">Au revoir, Pluto! In this beloved revised classic, beginning readers and budding astronomers are launched on a wild trip to visit the eight planets in our solar system (per the International Astronomical Union’s 2006 decision to downgrade Pluto from a planet to a dwarf planet), along with the Cat in the Hat, Thing One, Thing Two, Dick, and Sally. It’s a reading adventure that’s out of this world!<br> <a href="https://www.amazon.in/Theres-No-Place-Like-Space/dp/0679891153/ref=sr_1_9?crid=176WU3JFDK2JP&keywords=books+on+space+for+kids&qid=1575444723&sprefix=books+on%2Caps%2C285&sr=8-9"><b>BEST BUY LINK</b></a> </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactUs">
+                            <h2 class="text-capitalize ">Contact Us</h2>
+                        </div>
+                        <div id="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d56142.458934823335!2d77.060494!3d28.422163!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbc6a182a1ac94b76!2sManav%20Rachna%20International%20School!5e0!3m2!1sen!2sin!4v1613927887858!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                        <div id="details">
+                            <img src="https://mris.edu.in/wp-content/uploads/2019/11/IMG_5256.jpg" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+                            <h3>Principal Name: </h3>
+                            <h4>Ms.alpana baveja </h4>
+                            <div class="contact_1">
+                                <a href="mailto:school@gmail.com?Subject=Hi">
+                                    <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;info.mris51@mris.edu.in</h5>
+                                </a>
+                                <a href="#">
+                                    <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;schoolId</h5>
+                                </a>
+                                <a href="#">
+                                    <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;95600-63999</h5>
+                                </a>
+                            </div>
+                        </div>
+    </div>
+    <div id="footer"></div>
+</body>
+
+</html>
+
